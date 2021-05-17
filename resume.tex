@@ -1,0 +1,206 @@
+\documentclass[a4,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+% \pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeCompany}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	\begin{center}
+		{\Huge \scshape Dipti Kasliwal} \\ \vspace{1pt}
+		B. E. Computer Engineering \\ \vspace{1pt}
+		\small \raisebox{-0.1\height}\faPhone\ +91 - 8888 886 759 ~ \href{mailto:diptikasliwal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{diptikasliwal@gmail.com}} ~ 
+		\href{https://www.linkedin.com/in/dipti-kasliwal}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/dipti-kasliwal}}  ~
+		\href{https://github.com/kasliwaldipti}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/kasliwaldipti}}
+		\vspace{-8pt}
+	\end{center}
+
+%----------HEADING-----------------
+%\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+ % \textbf{{\Large Dipti Kasliwal}} & Email : \href{mailto:diptikasliwal@gmail.com}{diptikasliwal@gmail.com}\\
+  %\href{https://www.linkedin.com/in/dipti-kasliwal}{www.linkedin.com/in/dipti-kasliwal} & Mobile : +91 - 8888 886 759 \\
+  %\href{https://github.com/kasliwaldipti}{https://github.com/kasliwaldipti}\\
+%\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+
+
+\section {Education}
+	\resumeSubHeadingListStart
+	  \resumeSubheading
+		{K. K. Wagh Institute of Engineering Education \& Research}{Nashik, India}
+		{Bachelor of Engineering in Computer Engineering; T.E. GPA: 9.63/10.0}{Aug. 2018 -- Present}
+	  \resumeSubheading
+		{K. K. Wagh Polytechnic}{Nashik, India}
+		{Diploma in Computer Engineering; Percentage: 88.94\%}{2015 -- 2018}
+	  \resumeSubheading
+	    {Rasbihari International School}{Nashik, India}
+		{SSC; Percentage: 93\%}{2002 -- 2015}
+	\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+	\resumeCompany
+      {FinIQ Consulting India Pvt. Ltd.}{Nashik, India}
+      {Summer Intern}{May 2020 - June 2020}
+			\resumeItemListStart
+				\resumeItem{Forex Trading Web Application}{Worked on Angular 8 (Typescript) and integrated APIs to provide trading related information like currency exchange rates, stock market analysis, etc.}
+				\resumeItem{CPU Load Calibration}{A Java program to put a user specified CPU load using Threads. Basic need of this program is to help in load testing.}
+				\resumeItem{RFP on use of OLAP in the company}{A document to explain how the company can implement OLAP to help with its needs.}
+			\resumeItemListEnd
+		
+	\resumeCompany
+		{Siemens Ltd.}{Nashik, India}
+		{Internship Trainee}{December 2019}
+			\resumeItemListStart
+				\resumeItem{Worked in R \& D Dept.}{Worked on establishing wireless communication between microcontrollers and various devices including Arduino UNO, Arduino NANO, HC-05 using standard protocols viz. RS232 and CAN using MSP2515.}
+      		\resumeItemListEnd
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  		\resumeSubheading
+  		{Pulmonary Disease Detection and Analysis using Deep Learning}{August 2020 -- Present}
+  		{}{}
+  		{This system will be able to detect whether the patient has contracted Covid-19 based on the X-Ray scans provided to it. The system uses Deep Learning to do the analysis. The project is being created using ReactJS as the frontend, firebase as the database and CNN as the algorithm to create and train the model.}
+  		\resumeSubheading
+	  	{Team Up!}{June 2019 -- November 2019}
+		{}{}
+		{Team Up! is a BI web application for resource management in IT organizations. It helps them to manage the available skills, resources and their utilization. With a Bootstrap HTML frontend and MySQL Java Servlet backend, it has an award winning UI, overall.}
+		\resumeSubheading
+		{sanGRAM (Govt. Sponsored)}{June 2017 -- March 2018}
+		{}{}
+		{sanGRAM is hosted on a government portal which is used by Gram Panchayats from all over Maharashtra to participate in Sant Gadgebaba Gram Swachhata Abhiyan Award. The project helps the government in data collection. PHP (Codeigniter) is used for the frontend and MySQL is used for backend. It is a fully responsive web application.}
+  \resumeSubHeadingListEnd
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+	\resumeSubHeadingListStart
+		\item{\textbf{Languages}{: Java, Python, C/C ++/Embedded C, PHP (Codeigniter), LaTeX} }
+		\hfill
+		\item{\textbf{Frontend Technologies}{: Angular 8, ReactJS, Flutter, HTML and CSS} }
+		\item{\textbf{Database-related Technologies}{: Oracle, MySQL, Firebase, JDBC} }
+		\hfill
+	\resumeSubHeadingListEnd
+
+%--------TALKS AND WORKSHOPS----------
+\section{Courses, Certifications and Co-Curricular Activities}
+	\resumeSubHeadingListStart
+	  	\item \textbf{Courses and Certifications:}
+		\begin{itemize}
+			\item Oracle WDP for Java (Certification) (2017)
+			\item SAP-certified ERP course  (2017-2018)
+			\item Entrepreneurship Awareness Camp (2017)
+		\end{itemize}
+		\item \textbf{Co-Curricular Activities:}
+		\begin{itemize}
+			\item Organized India's first AI Fest in Nashik, in association with OrbitShifters and ULS Academy in 2019.
+			\item Presented a paper on Andorid Versions at Techmanthan-2017, K.K.Wagh Polytechnic, Nashik.
+			\item Presented a paper on sanGRAM at MechFest-2018, K.K.Wagh Polytechnic, Nashik.
+			\item Participated in project competition- Ayaam-2018, Sandip University, Nashik.
+			\item Won various awards for academic proficiency.
+		\end{itemize}
+	\resumeSubHeadingListEnd
+
+\section{Extra-Curricular Activities}
+	\resumeSubHeadingListStart
+		\item President of Debuggers' Club (A club responsible for various technical events)
+		\item Head girl of school and House Captain and Vice-Captain
+		\item Event Management Committee head in diploma college
+		\item Anchoring Committee head for diploma college events like Annual Social Gathering
+		\item Trained Bharatnatyam Dancer \textit{(8 years)}
+		\item Learned Harmonium \textit{(5 Years)}
+		\item Won various awards for anchoring, debates and elocution competitions
+
+	\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
